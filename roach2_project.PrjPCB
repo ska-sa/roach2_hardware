@@ -42,7 +42,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document2]
-DocumentPath=ppc_extbus.SchDoc
+DocumentPath=sfp_phy_0.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -57,7 +57,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document3]
-DocumentPath=roach2_top.SchDoc
+DocumentPath=ppc_extbus.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -72,7 +72,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document4]
-DocumentPath=ppc_power.SchDoc
+DocumentPath=roach2_top.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -87,7 +87,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document5]
-DocumentPath=ppc_serial.SchDoc
+DocumentPath=ppc_power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -102,7 +102,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document6]
-DocumentPath=ppc_ddr2.SchDoc
+DocumentPath=ppc_serial.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -117,7 +117,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document7]
-DocumentPath=roach2_project.OutJob
+DocumentPath=ppc_ddr2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -132,7 +132,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document8]
-DocumentPath=ppc_sys.SchDoc
+DocumentPath=roach2_project.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -147,7 +147,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document9]
-DocumentPath=ppc_cpld.SchDoc
+DocumentPath=ppc_sys.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -162,7 +162,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document10]
-DocumentPath=ppc_net.SchDoc
+DocumentPath=ppc_cpld.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -177,7 +177,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document11]
-DocumentPath=ppc_extbus.Harness
+DocumentPath=ppc_net.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -192,7 +192,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document12]
-DocumentPath=v6_config_io_16_17_21_22.SchDoc
+DocumentPath=ppc_extbus.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -207,7 +207,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document13]
-DocumentPath=v6_io_12_13_14_15.SchDoc
+DocumentPath=v6_config_io_16_17_21_22.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -222,7 +222,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document14]
-DocumentPath=v6_io_23_24_25_26.SchDoc
+DocumentPath=v6_io_12_13_14_15.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -237,7 +237,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document15]
-DocumentPath=v6_io_27_28_32_33.SchDoc
+DocumentPath=v6_io_23_24_25_26.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -252,7 +252,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document16]
-DocumentPath=v6_io_34_35_36_37_38.SchDoc
+DocumentPath=v6_io_27_28_32_33.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -267,7 +267,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document17]
-DocumentPath=ppc_cpld.Harness
+DocumentPath=v6_io_34_35_36_37_38.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -282,7 +282,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document18]
-DocumentPath=v6_mgt.SchDoc
+DocumentPath=ppc_cpld.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -297,7 +297,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document19]
-DocumentPath=v6_power.SchDoc
+DocumentPath=v6_mgt.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -312,7 +312,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document20]
-DocumentPath=zdoks.SchDoc
+DocumentPath=v6_power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -327,7 +327,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document21]
-DocumentPath=zdoks.Harness
+DocumentPath=zdoks.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -342,7 +342,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document22]
-DocumentPath=qdr0_1.SchDoc
+DocumentPath=zdoks.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -357,7 +357,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document23]
-DocumentPath=qdr0_1.Harness
+DocumentPath=qdr0_1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -372,7 +372,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document24]
-DocumentPath=qdr0.Harness
+DocumentPath=qdr0_1.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -387,7 +387,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document25]
-DocumentPath=qdr2_3.SchDoc
+DocumentPath=qdr0.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -402,7 +402,67 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document26]
+DocumentPath=qdr2_3.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+
+[Document27]
 DocumentPath=qdr2_3.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+
+[Document28]
+DocumentPath=ddr3.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+
+[Document29]
+DocumentPath=ddr3.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+
+[Document30]
+DocumentPath=sfp_phy_0.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
