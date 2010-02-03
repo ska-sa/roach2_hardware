@@ -521,77 +521,107 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
+[Document34]
+DocumentPath=v6_io_23_24_25_26.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+
+[Document35]
+DocumentPath=v6_io_12_13_14_15.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+
 [Parameter1]
-Name=COMPANY_ADDRESS_1
-Value=17 Baker Street, Rosebank
+Name=SCH_Title_Engineer
+Value=<ENGINEER>
 
 [Parameter2]
-Name=COMPANY_ADDRESS_2
-Value=Johannesburg
-
-[Parameter3]
-Name=COMPANY_ADDRESS_3
-Value=South Africa
-
-[Parameter4]
-Name=COMPANY_NAME1
-Value=Square Kilometer Array
-
-[Parameter5]
-Name=COMPANY_NAME2
-Value=MeerKAT
-
-[Parameter6]
-Name=COPYRIGHT_YEAR
-Value=2009
-
-[Parameter7]
-Name=GERBER FILENAME
-Value=1111-2222
-
-[Parameter8]
-Name=PCB_REVISION
-Value=<1.00>
-
-[Parameter9]
-Name=PCB_Title_Date
-Value=29-10-2009
-
-[Parameter10]
-Name=PCB_Title_DocumentNumber
-Value=1111-2222P
-
-[Parameter11]
-Name=PCB_Title_DrawnBy
-Value=A. A.
-
-[Parameter12]
-Name=PCB_Title_Engineer
-Value=B. B.
-
-[Parameter13]
-Name=PCB_Title_Filename
-Value=<Filename.PcbDoc>
-
-[Parameter14]
-Name=PROJECT_TITLE
-Value=<PROJECT TITLE>
-
-[Parameter15]
-Name=SCH_Title_Date
-Value=24-06-2009
-
-[Parameter16]
-Name=SCH_Title_DocumentNumber
-Value=<DOC NUMBER>
-
-[Parameter17]
 Name=SCH_Title_DrawnBy
 Value=<DRAWN BY>
 
+[Parameter3]
+Name=SCH_Title_DocumentNumber
+Value=<DOC NUMBER>
+
+[Parameter4]
+Name=SCH_Title_Date
+Value=24-06-2009
+
+[Parameter5]
+Name=PROJECT_TITLE
+Value=<PROJECT TITLE>
+
+[Parameter6]
+Name=PCB_Title_Filename
+Value=<Filename.PcbDoc>
+
+[Parameter7]
+Name=PCB_Title_Engineer
+Value=B. B.
+
+[Parameter8]
+Name=PCB_Title_DrawnBy
+Value=A. A.
+
+[Parameter9]
+Name=PCB_Title_DocumentNumber
+Value=1111-2222P
+
+[Parameter10]
+Name=PCB_Title_Date
+Value=29-10-2009
+
+[Parameter11]
+Name=PCB_REVISION
+Value=<1.00>
+
+[Parameter12]
+Name=GERBER FILENAME
+Value=1111-2222
+
+[Parameter13]
+Name=COPYRIGHT_YEAR
+Value=2009
+
+[Parameter14]
+Name=COMPANY_NAME2
+Value=MeerKAT
+
+[Parameter15]
+Name=COMPANY_NAME1
+Value=Square Kilometer Array
+
+[Parameter16]
+Name=COMPANY_ADDRESS_3
+Value=South Africa
+
+[Parameter17]
+Name=COMPANY_ADDRESS_2
+Value=Johannesburg
+
 [Parameter18]
-Name=SCH_Title_Engineer
-Value=<ENGINEER>
+Name=COMPANY_ADDRESS_1
+Value=17 Baker Street, Rosebank
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
@@ -1323,7 +1353,7 @@ Type58=2
 Type59=1
 Type60=0
 Type61=0
-Type62=0
+Type62=1
 Type63=1
 Type64=0
 Type65=2
