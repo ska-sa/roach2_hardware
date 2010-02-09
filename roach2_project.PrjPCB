@@ -27,7 +27,7 @@ PushECOToAnnotationFile=1
 DItemRevisionGUID=
 
 [Document1]
-DocumentPath=roach2_Output.OutJob
+DocumentPath=ppc_extbus.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -42,7 +42,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document2]
-DocumentPath=sfp_phy_0.SchDoc
+DocumentPath=ppc_serial.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -57,7 +57,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document3]
-DocumentPath=ppc_extbus.SchDoc
+DocumentPath=ppc_ddr2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -87,66 +87,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document5]
-DocumentPath=ppc_power.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-
-[Document6]
-DocumentPath=ppc_serial.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-
-[Document7]
-DocumentPath=ppc_ddr2.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-
-[Document8]
-DocumentPath=roach2_project.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-
-[Document9]
 DocumentPath=ppc_sys.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -161,7 +101,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document10]
+[Document6]
 DocumentPath=ppc_cpld.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -176,7 +116,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document11]
+[Document7]
 DocumentPath=ppc_net.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -191,7 +131,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document12]
+[Document8]
 DocumentPath=ppc_extbus.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -206,7 +146,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document13]
+[Document9]
 DocumentPath=v6_config_io_16_17_21_22.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -221,7 +161,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document14]
+[Document10]
 DocumentPath=v6_io_12_13_14_15.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,7 +176,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document15]
+[Document11]
 DocumentPath=v6_io_23_24_25_26.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -251,7 +191,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document16]
+[Document12]
 DocumentPath=v6_io_27_28_32_33.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -266,7 +206,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document17]
+[Document13]
 DocumentPath=v6_io_34_35_36_37_38.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -281,7 +221,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document18]
+[Document14]
 DocumentPath=ppc_cpld.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -296,7 +236,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document19]
+[Document15]
 DocumentPath=v6_mgt.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -311,7 +251,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document20]
+[Document16]
 DocumentPath=v6_power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -326,7 +266,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document21]
+[Document17]
 DocumentPath=zdoks.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -341,7 +281,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document22]
+[Document18]
 DocumentPath=zdoks.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -356,7 +296,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document23]
+[Document19]
 DocumentPath=qdr0_1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -371,7 +311,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document24]
+[Document20]
 DocumentPath=qdr0_1.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -386,7 +326,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document25]
+[Document21]
 DocumentPath=qdr0.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -401,7 +341,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document26]
+[Document22]
 DocumentPath=qdr2_3.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -416,7 +356,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document27]
+[Document23]
 DocumentPath=qdr2_3.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -431,7 +371,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document28]
+[Document24]
 DocumentPath=ddr3.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -446,7 +386,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document29]
+[Document25]
 DocumentPath=ddr3.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -461,22 +401,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document30]
-DocumentPath=sfp_phy_0.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-
-[Document31]
+[Document26]
 DocumentPath=v6_net.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -491,7 +416,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document32]
+[Document27]
 DocumentPath=hwmon.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -506,7 +431,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document33]
+[Document28]
 DocumentPath=gpio_led.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -521,7 +446,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document34]
+[Document29]
 DocumentPath=v6_io_23_24_25_26.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -536,7 +461,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document35]
+[Document30]
 DocumentPath=v6_io_12_13_14_15.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -551,7 +476,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document36]
+[Document31]
 DocumentPath=v6_config_io_16_17_21_22.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -566,7 +491,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document37]
+[Document32]
 DocumentPath=v6_io_27_28_32_33.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -581,8 +506,83 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document38]
+[Document33]
 DocumentPath=v6_io_34_35_36_37_38.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+
+[Document34]
+DocumentPath=power_supply.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+
+[Document35]
+DocumentPath=jtag_levelxlate.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+
+[Document36]
+DocumentPath=jtag_levelxlate.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+
+[Document37]
+DocumentPath=mgt_breakout.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+
+[Document38]
+DocumentPath=ppc_power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -888,7 +888,7 @@ OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType6=Schematic Print
 OutputName6=Schematic Prints
-OutputDocumentPath6=C:\cygwin\home\dave\work\svnROACH2\elec\roach2\ppc_ddr2.SchDoc
+OutputDocumentPath6=C:\cygwin\home\dave\work\svnROACH2\elec\roach2\ppc_serial.SchDoc
 OutputVariantName6=
 OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
