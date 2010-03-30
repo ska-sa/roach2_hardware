@@ -2,14 +2,14 @@
 
 import string
 
-in_file = '240-pin_ddr3_dimm.csv'
+in_file = 'dram_x16_84BGA.csv'
 out_filename = 'symbol_gen.pas'
 
-component_name = 'ddr3_dimm_240'
-component_refdes = 'P?'
+component_name = 'MT47H128M16'
+component_refdes = 'U?'
 component_part = '*'
 component_manufacturer = '*'
-component_comment = '240-pin DDR3 DIMM '
+component_comment = '1Gb, x16, BGA84 SDRAM IC'
 
 def put_early_info(fid,component_name, part_count, refdes, comment):
   fid.write('  {.Generated from CSV info.}\n')
