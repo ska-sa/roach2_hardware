@@ -327,21 +327,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document21]
-DocumentPath=qdr2_3.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-
-[Document22]
 DocumentPath=ddr3.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -356,7 +341,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document23]
+[Document22]
 DocumentPath=ddr3.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -371,7 +356,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document24]
+[Document23]
 DocumentPath=v6_net.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -386,7 +371,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document25]
+[Document24]
 DocumentPath=hwmon.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -401,7 +386,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document26]
+[Document25]
 DocumentPath=gpio_led.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -416,7 +401,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document27]
+[Document26]
 DocumentPath=v6_io_23_24_25_26.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -431,7 +416,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document28]
+[Document27]
 DocumentPath=v6_io_12_13_14_15.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -446,7 +431,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document29]
+[Document28]
 DocumentPath=v6_config_io_16_17_21_22.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -461,7 +446,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document30]
+[Document29]
 DocumentPath=v6_io_27_28_32_33.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -476,7 +461,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document31]
+[Document30]
 DocumentPath=v6_io_34_35_36_37_38.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -491,7 +476,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document32]
+[Document31]
 DocumentPath=power_supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -506,7 +491,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document33]
+[Document32]
 DocumentPath=jtag_levelxlate.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -521,7 +506,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document34]
+[Document33]
 DocumentPath=jtag_levelxlate.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -536,7 +521,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document35]
+[Document34]
 DocumentPath=mgt_breakout.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -551,7 +536,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document36]
+[Document35]
 DocumentPath=ppc_power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -566,7 +551,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document37]
+[Document36]
 DocumentPath=ppc_cpld.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -581,7 +566,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document38]
+[Document37]
 DocumentPath=ppc_ddr2_1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -596,7 +581,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document39]
+[Document38]
 DocumentPath=ppc_ddr2_0.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -611,7 +596,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document40]
+[Document39]
 DocumentPath=ppc_ddr2_0.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -626,8 +611,38 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document41]
+[Document40]
 DocumentPath=ppc_ddr2_1.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+
+[Document41]
+DocumentPath=..\..\..\DBE_libraries\pcb\Altium\altium_db.DbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+
+[Document42]
+DocumentPath=qdr2_3.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -1055,46 +1070,58 @@ Name=Report Outputs
 Description=
 TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
-OutputType1=BOM_PartType
-OutputName1=Bill of Materials
+OutputType1=Design Rules Check
+OutputName1=Design Rules Check
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType2=ComponentCrossReference
-OutputName2=Component Cross Reference Report
+OutputType2=SinglePinNetReporter
+OutputName2=Report Single Pin Nets
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=ReportHierarchy
-OutputName3=Report Project Hierarchy
+OutputType3=Script
+OutputName3=Script Output
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=SimpleBOM
-OutputName4=Simple BOM
+OutputType4=Electrical Rules Check
+OutputName4=Electrical Rules Check
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-OutputType5=SinglePinNetReporter
-OutputName5=Report Single Pin Nets
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType5=ComponentCrossReference
+OutputName5=Component Cross Reference Report
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-OutputType6=Design Rules Check
-OutputName6=Design Rules Check
+OutputType6=BOM_PartType
+OutputName6=Bill of Materials
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType7=Electrical Rules Check
-OutputName7=Electrical Rules Check
+Configuration6_Name1=Filter
+Configuration6_Item1=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration6_Name2=General
+Configuration6_Item2=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|IncludePCBData=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=942|FormHeight=956|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration6_Name3=GroupOrder
+Configuration6_Item3=Part=True|Comment=True|Footprint=True
+Configuration6_Name4=OutputConfigurationParameter1
+Configuration6_Item4=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False
+Configuration6_Name5=SortOrder
+Configuration6_Item5=LibRef=Up
+Configuration6_Name6=VisibleOrder
+Configuration6_Item6=Description=100|Designator=100|ESR=100|LibRef=100|Manufacturer=100|Part=100|Quantity=100|Rating=100|Tolerance=100|Value=100
+OutputType7=SimpleBOM
+OutputName7=Simple BOM
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType8=Script
-OutputName8=Script Output
+OutputType8=ReportHierarchy
+OutputName8=Report Project Hierarchy
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
