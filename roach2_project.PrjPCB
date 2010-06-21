@@ -11,7 +11,7 @@ ArchiveProject=0
 TimestampOutput=0
 SeparateFolders=0
 PinSwapBy_Netlabel=1
-PinSwapBy_Pin=1
+PinSwapBy_Pin=0
 AllowPortNetNames=0
 AllowSheetEntryNetNames=0
 AppendSheetNumberToLocalNets=0
@@ -691,80 +691,188 @@ DocumentPath=BGA Escape Route - roach2.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
+DocumentPath=ddr3.V
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=gpio_led.V
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=hwmon.V
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=jtag_levelxlate.V
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=mgt_breakout.V
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=misc.V
+DItemRevisionGUID=
+
+[GeneratedDocument8]
 DocumentPath=Net Status - roach2.html
 DItemRevisionGUID=
 
+[GeneratedDocument9]
+DocumentPath=power_supply.V
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=ppc_cpld.V
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=ppc_ddr2_0.V
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=ppc_ddr2_1.V
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=ppc_extbus.V
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=ppc_net.V
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=ppc_power.V
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=ppc_serial.V
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=ppc_sys.V
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=qdr0_1.V
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=qdr2_3.V
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=roach2_top.V
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=v6_config_io_16_17_21_22.V
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=v6_io_12_13_14_15.V
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=v6_io_23_24_25_26.V
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=v6_io_27_28_32_33.V
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=v6_io_34_35_36_37_38.V
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=v6_mgt.V
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=v6_net.V
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=v6_power.V
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=zdoks.V
+DItemRevisionGUID=
+
 [Parameter1]
-Name=COMPANY_ADDRESS_1
-Value=17 Baker Street, Rosebank
+Name=SCH_Title_Engineer
+Value=<ENGINEER>
 
 [Parameter2]
-Name=COMPANY_ADDRESS_2
-Value=Johannesburg
-
-[Parameter3]
-Name=COMPANY_ADDRESS_3
-Value=South Africa
-
-[Parameter4]
-Name=COMPANY_NAME1
-Value=Square Kilometer Array
-
-[Parameter5]
-Name=COMPANY_NAME2
-Value=MeerKAT
-
-[Parameter6]
-Name=COPYRIGHT_YEAR
-Value=2009
-
-[Parameter7]
-Name=GERBER FILENAME
-Value=1111-2222
-
-[Parameter8]
-Name=PCB_REVISION
-Value=<1.00>
-
-[Parameter9]
-Name=PCB_Title_Date
-Value=29-10-2009
-
-[Parameter10]
-Name=PCB_Title_DocumentNumber
-Value=1111-2222P
-
-[Parameter11]
-Name=PCB_Title_DrawnBy
-Value=A. A.
-
-[Parameter12]
-Name=PCB_Title_Engineer
-Value=B. B.
-
-[Parameter13]
-Name=PCB_Title_Filename
-Value=<Filename.PcbDoc>
-
-[Parameter14]
-Name=PROJECT_TITLE
-Value=<PROJECT TITLE>
-
-[Parameter15]
-Name=SCH_Title_Date
-Value=24-06-2009
-
-[Parameter16]
-Name=SCH_Title_DocumentNumber
-Value=<DOC NUMBER>
-
-[Parameter17]
 Name=SCH_Title_DrawnBy
 Value=<DRAWN BY>
 
+[Parameter3]
+Name=SCH_Title_DocumentNumber
+Value=<DOC NUMBER>
+
+[Parameter4]
+Name=SCH_Title_Date
+Value=24-06-2009
+
+[Parameter5]
+Name=PROJECT_TITLE
+Value=<PROJECT TITLE>
+
+[Parameter6]
+Name=PCB_Title_Filename
+Value=<Filename.PcbDoc>
+
+[Parameter7]
+Name=PCB_Title_Engineer
+Value=B. B.
+
+[Parameter8]
+Name=PCB_Title_DrawnBy
+Value=A. A.
+
+[Parameter9]
+Name=PCB_Title_DocumentNumber
+Value=1111-2222P
+
+[Parameter10]
+Name=PCB_Title_Date
+Value=29-10-2009
+
+[Parameter11]
+Name=PCB_REVISION
+Value=<1.00>
+
+[Parameter12]
+Name=GERBER FILENAME
+Value=1111-2222
+
+[Parameter13]
+Name=COPYRIGHT_YEAR
+Value=2009
+
+[Parameter14]
+Name=COMPANY_NAME2
+Value=MeerKAT
+
+[Parameter15]
+Name=COMPANY_NAME1
+Value=Square Kilometer Array
+
+[Parameter16]
+Name=COMPANY_ADDRESS_3
+Value=South Africa
+
+[Parameter17]
+Name=COMPANY_ADDRESS_2
+Value=Johannesburg
+
 [Parameter18]
-Name=SCH_Title_Engineer
-Value=<ENGINEER>
+Name=COMPANY_ADDRESS_1
+Value=17 Baker Street, Rosebank
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
@@ -802,63 +910,63 @@ Name=Netlist Outputs
 Description=
 TargetPrinter=HP LaserJet P2015 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
-OutputType1=SciCardsNetlist
-OutputName1=SciCards Netlist
+OutputType1=CadnetixNetlist
+OutputName1=Cadnetix Netlist
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=SIMetrixNetlist
-OutputName2=SIMetrix
+OutputType2=CalayNetlist
+OutputName2=Calay Netlist
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=SIMPLISNetlist
-OutputName3=SIMPLIS
+OutputType3=EDIF
+OutputName3=EDIF for PCB
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=ProtelNetlist
-OutputName4=Protel
+OutputType4=EESofNetlist
+OutputName4=EESof Netlist
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-OutputType5=RacalNetlist
-OutputName5=Racal Netlist
+OutputType5=IntergraphNetlist
+OutputName5=Intergraph Netlist
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-OutputType6=RINFNetlist
-OutputName6=RINF Netlist
+OutputType6=MentorBoardStationNetlist
+OutputName6=Mentor BoardStation Netlist
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-OutputType7=VHDL
-OutputName7=VHDL File
+OutputType7=MultiWire
+OutputName7=MultiWire
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-OutputType8=WireListNetlist
-OutputName8=WireList Netlist
+OutputType8=OrCadPCB2Netlist
+OutputName8=Orcad/PCB2 Netlist
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=XSpiceNetlist
-OutputName9=XSpice Netlist
+OutputType9=PADSNetlist
+OutputName9=PADS ASCII Netlist
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=TangoNetlist
-OutputName10=Tango Netlist
+OutputType10=Pcad
+OutputName10=Pcad for PCB
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=TelesisNetlist
-OutputName11=Telesis Netlist
+OutputType11=PCADNetlist
+OutputName11=PCAD Netlist
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Verilog
-OutputName12=Verilog File
+OutputType12=PCADnltNetlist
+OutputName12=PCADnlt Netlist
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
@@ -867,63 +975,65 @@ OutputName13=Protel2 Netlist
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-OutputType14=EESofNetlist
-OutputName14=EESof Netlist
+OutputType14=ProtelNetlist
+OutputName14=Protel
 OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
-OutputType15=IntergraphNetlist
-OutputName15=Intergraph Netlist
+OutputType15=RacalNetlist
+OutputName15=Racal Netlist
 OutputDocumentPath15=
 OutputVariantName15=
 OutputDefault15=0
-OutputType16=MentorBoardStationNetlist
-OutputName16=Mentor BoardStation Netlist
+OutputType16=RINFNetlist
+OutputName16=RINF Netlist
 OutputDocumentPath16=
 OutputVariantName16=
 OutputDefault16=0
-OutputType17=CadnetixNetlist
-OutputName17=Cadnetix Netlist
+OutputType17=SciCardsNetlist
+OutputName17=SciCards Netlist
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
-OutputType18=CalayNetlist
-OutputName18=Calay Netlist
+OutputType18=SIMetrixNetlist
+OutputName18=SIMetrix
 OutputDocumentPath18=
 OutputVariantName18=
 OutputDefault18=0
-OutputType19=EDIF
-OutputName19=EDIF for PCB
+OutputType19=SIMPLISNetlist
+OutputName19=SIMPLIS
 OutputDocumentPath19=
 OutputVariantName19=
 OutputDefault19=0
-OutputType20=Pcad
-OutputName20=Pcad for PCB
+OutputType20=TangoNetlist
+OutputName20=Tango Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=PCADNetlist
-OutputName21=PCAD Netlist
+OutputType21=TelesisNetlist
+OutputName21=Telesis Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
-OutputType22=PCADnltNetlist
-OutputName22=PCADnlt Netlist
+OutputType22=Verilog
+OutputName22=Verilog File
 OutputDocumentPath22=
 OutputVariantName22=
 OutputDefault22=0
-OutputType23=MultiWire
-OutputName23=MultiWire
+Configuration22_Name1=OutputConfigurationParameter1
+Configuration22_Item1=Crossprobe=False|EnableAttributes=True|GenerateBlackBoxModules=True|Record=VerilogView|SingleFile=False
+OutputType23=VHDL
+OutputName23=VHDL File
 OutputDocumentPath23=
 OutputVariantName23=
 OutputDefault23=0
-OutputType24=OrCadPCB2Netlist
-OutputName24=Orcad/PCB2 Netlist
+OutputType24=WireListNetlist
+OutputName24=WireList Netlist
 OutputDocumentPath24=
 OutputVariantName24=
 OutputDefault24=0
-OutputType25=PADSNetlist
-OutputName25=PADS ASCII Netlist
+OutputType25=XSpiceNetlist
+OutputName25=XSpice Netlist
 OutputDocumentPath25=
 OutputVariantName25=
 OutputDefault25=0
