@@ -402,21 +402,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document26]
-DocumentPath=v6_io_23_24_25_26.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-
-[Document27]
 DocumentPath=v6_io_12_13_14_15.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -431,7 +416,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document28]
+[Document27]
 DocumentPath=v6_config_io_16_17_21_22.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -446,7 +431,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document29]
+[Document28]
 DocumentPath=v6_io_27_28_32_33.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -461,7 +446,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document30]
+[Document29]
 DocumentPath=v6_io_34_35_36_37_38.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -476,7 +461,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document31]
+[Document30]
 DocumentPath=power_supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -491,7 +476,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document32]
+[Document31]
 DocumentPath=jtag_levelxlate.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -506,7 +491,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document33]
+[Document32]
 DocumentPath=jtag_levelxlate.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -521,7 +506,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document34]
+[Document33]
 DocumentPath=mgt_breakout.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -536,7 +521,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document35]
+[Document34]
 DocumentPath=ppc_power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -551,7 +536,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document36]
+[Document35]
 DocumentPath=ppc_cpld.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -566,7 +551,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document37]
+[Document36]
 DocumentPath=ppc_ddr2_1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -581,7 +566,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document38]
+[Document37]
 DocumentPath=ppc_ddr2_0.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -596,22 +581,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document39]
-DocumentPath=ppc_ddr2_0.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-
-[Document40]
+[Document38]
 DocumentPath=ppc_ddr2_1.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -626,7 +596,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document41]
+[Document39]
 DocumentPath=qdr2_3.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -641,7 +611,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document42]
+[Document40]
 DocumentPath=roach2.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -656,7 +626,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document43]
+[Document41]
 DocumentPath=misc.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -671,99 +641,144 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
+[Document42]
+DocumentPath=ppc_ddr2_0.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+
+[Document43]
+DocumentPath=v6_io_23_24_25_26.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+
+[Document44]
+DocumentPath=roach2_project.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+
 [Parameter1]
-Name=COMPANY_ADDRESS_1
-Value=17 Baker Street, Rosebank
+Name=SCH_Title_Engineer
+Value=David George
 
 [Parameter2]
-Name=COMPANY_ADDRESS_2
-Value=Johannesburg
+Name=SCH_Title_DrawnBy
+Value=David George
 
 [Parameter3]
-Name=COMPANY_ADDRESS_3
-Value=South Africa
+Name=SCH_Title_DocumentNumber
+Value=
 
 [Parameter4]
-Name=COMPANY_NAME1
-Value=Square Kilometer Array
+Name=SCH_Title_Date
+Value=14-08-2010
 
 [Parameter5]
-Name=COMPANY_NAME2
-Value=MeerKAT
+Name=PROJECT_TITLE
+Value=ROACH 2
 
 [Parameter6]
-Name=COPYRIGHT_YEAR
-Value=2009
+Name=PCB_Title_Filename
+Value=roach2.PcbDoc
 
 [Parameter7]
-Name=GERBER FILENAME
-Value=1111-2222
-
-[Parameter8]
-Name=PCB_REVISION
-Value=<1.00>
-
-[Parameter9]
-Name=PCB_Title_Date
-Value=29-10-2009
-
-[Parameter10]
-Name=PCB_Title_DocumentNumber
-Value=1111-2222P
-
-[Parameter11]
-Name=PCB_Title_DrawnBy
-Value=A. A.
-
-[Parameter12]
 Name=PCB_Title_Engineer
 Value=B. B.
 
+[Parameter8]
+Name=PCB_Title_DrawnBy
+Value=A. A.
+
+[Parameter9]
+Name=PCB_Title_DocumentNumber
+Value=1111-2222P
+
+[Parameter10]
+Name=PCB_Title_Date
+Value=14-08-2010
+
+[Parameter11]
+Name=PCB_REVISION
+Value=<1.00>
+
+[Parameter12]
+Name=GERBER FILENAME
+Value=1111-2222
+
 [Parameter13]
-Name=PCB_Title_Filename
-Value=<Filename.PcbDoc>
+Name=COPYRIGHT_YEAR
+Value=2010
 
 [Parameter14]
-Name=PROJECT_TITLE
-Value=<PROJECT TITLE>
+Name=COMPANY_NAME2
+Value=MeerKAT
 
 [Parameter15]
-Name=SCH_Title_Date
-Value=24-06-2009
+Name=COMPANY_NAME1
+Value=Square Kilometer Array
 
 [Parameter16]
-Name=SCH_Title_DocumentNumber
-Value=<DOC NUMBER>
+Name=COMPANY_ADDRESS_3
+Value=South Africa
 
 [Parameter17]
-Name=SCH_Title_DrawnBy
-Value=<DRAWN BY>
+Name=COMPANY_ADDRESS_2
+Value=Johannesburg
 
 [Parameter18]
-Name=SCH_Title_Engineer
-Value=<ENGINEER>
+Name=COMPANY_ADDRESS_1
+Value=17 Baker Street, Rosebank
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
-AutoOpenOutJob=-1
+AutoOpenOutJob=0
 
 [Generic_SmartPDFSettings]
-ProjectMode=-1
+ProjectMode=0
 ZoomPrecision=50
 AddNetsInformation=0
 AddNetPins=-1
 AddNetNetLabels=-1
 AddNetPorts=-1
-ExportBOM=0
+ExportBOM=-1
 TemplateFilename=
 TemplateStoreRelative=-1
 PCB_PrintColor=0
 SCH_PrintColor=0
-SCH_ShowNoErc=0
-SCH_ShowParameter=0
-SCH_ShowProbes=0
-SCH_ShowBlankets=0
-OutputFileName=roach2_project.PrjPCB=C:\work\svnROACH2\elec\roach2\roach2_project.pdf
+SCH_ShowNoErc=-1
+SCH_ShowParameter=-1
+SCH_ShowProbes=-1
+SCH_ShowBlankets=-1
+OutputFileName=roach2.PcbDoc=C:\Documents and Settings\dave\Desktop\roach2_layout.pdf
 SCH_ExpandLogicalToPhysical=0
 SCH_VariantName=[No Variations]
 SCH_ExpandComponentDesignators=-1
@@ -772,7 +787,7 @@ SCH_ExpandPorts=0
 SCH_ExpandSheetNumber=0
 SCH_ExpandDocumentNumber=0
 SCH_HasExpandLogicalToPhysicalSheets=-1
-SaveSettingsToOutJob=0
+SaveSettingsToOutJob=-1
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -3749,15 +3764,21 @@ Configuration_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|
 Configuration_Name5=OutputConfigurationParameter5
 Configuration_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration_Name6=OutputConfigurationParameter6
-Configuration_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer7|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer3|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration_Name7=OutputConfigurationParameter7
-Configuration_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer4|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration_Name8=OutputConfigurationParameter8
-Configuration_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer5|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration_Name9=OutputConfigurationParameter9
-Configuration_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer6|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration_Name10=OutputConfigurationParameter10
-Configuration_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer7|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration_Name11=OutputConfigurationParameter11
-Configuration_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer8|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name12=OutputConfigurationParameter12
+Configuration_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name13=OutputConfigurationParameter13
+Configuration_Item13=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name14=OutputConfigurationParameter14
+Configuration_Item14=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 
