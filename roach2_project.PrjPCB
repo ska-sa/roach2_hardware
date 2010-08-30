@@ -2,8 +2,8 @@
 Version=1.0
 HierarchyMode=2
 ChannelRoomNamingStyle=0
-OutputPath=..\roach2
-LogFolderPath=..\roach2
+OutputPath=outputs
+LogFolderPath=eco
 ChannelDesignatorFormatString=$Component_$RoomName
 ChannelRoomLevelSeperator=_
 OpenOutputs=0
@@ -686,77 +686,169 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
+[GeneratedDocument1]
+DocumentPath=roach2.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=roach2.G1
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=roach2.G2
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=roach2.G3
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=roach2.G4
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=roach2.G5
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=roach2.G6
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=roach2.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=roach2.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=roach2.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=roach2.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=roach2.GP2
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=roach2.GP3
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=roach2.GP4
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=roach2.GP5
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=roach2.GP6
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=roach2.GP7
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=roach2.GP8
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=roach2.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=roach2.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=roach2.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=roach2.REP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=roach2.RUL
+DItemRevisionGUID=
+
 [Parameter1]
-Name=COMPANY_ADDRESS_1
-Value=17 Baker Street, Rosebank
+Name=SCH_Title_Engineer
+Value=David George
 
 [Parameter2]
-Name=COMPANY_ADDRESS_2
-Value=Johannesburg
-
-[Parameter3]
-Name=COMPANY_ADDRESS_3
-Value=South Africa
-
-[Parameter4]
-Name=COMPANY_NAME1
-Value=Square Kilometer Array
-
-[Parameter5]
-Name=COMPANY_NAME2
-Value=MeerKAT
-
-[Parameter6]
-Name=COPYRIGHT_YEAR
-Value=2010
-
-[Parameter7]
-Name=GERBER FILENAME
-Value=1111-2222
-
-[Parameter8]
-Name=PCB_REVISION
-Value=<1.00>
-
-[Parameter9]
-Name=PCB_Title_Date
-Value=14-08-2010
-
-[Parameter10]
-Name=PCB_Title_DocumentNumber
-Value=1111-2222P
-
-[Parameter11]
-Name=PCB_Title_DrawnBy
-Value=A. A.
-
-[Parameter12]
-Name=PCB_Title_Engineer
-Value=B. B.
-
-[Parameter13]
-Name=PCB_Title_Filename
-Value=roach2.PcbDoc
-
-[Parameter14]
-Name=PROJECT_TITLE
-Value=ROACH 2
-
-[Parameter15]
-Name=SCH_Title_Date
-Value=14-08-2010
-
-[Parameter16]
-Name=SCH_Title_DocumentNumber
-Value=
-
-[Parameter17]
 Name=SCH_Title_DrawnBy
 Value=David George
 
+[Parameter3]
+Name=SCH_Title_DocumentNumber
+Value=
+
+[Parameter4]
+Name=SCH_Title_Date
+Value=14-08-2010
+
+[Parameter5]
+Name=PROJECT_TITLE
+Value=ROACH 2
+
+[Parameter6]
+Name=PCB_Title_Filename
+Value=roach2.PcbDoc
+
+[Parameter7]
+Name=PCB_Title_Engineer
+Value=B. B.
+
+[Parameter8]
+Name=PCB_Title_DrawnBy
+Value=A. A.
+
+[Parameter9]
+Name=PCB_Title_DocumentNumber
+Value=1111-2222P
+
+[Parameter10]
+Name=PCB_Title_Date
+Value=14-08-2010
+
+[Parameter11]
+Name=PCB_REVISION
+Value=<1.00>
+
+[Parameter12]
+Name=GERBER FILENAME
+Value=1111-2222
+
+[Parameter13]
+Name=COPYRIGHT_YEAR
+Value=2010
+
+[Parameter14]
+Name=COMPANY_NAME2
+Value=MeerKAT
+
+[Parameter15]
+Name=COMPANY_NAME1
+Value=Square Kilometer Array
+
+[Parameter16]
+Name=COMPANY_ADDRESS_3
+Value=South Africa
+
+[Parameter17]
+Name=COMPANY_ADDRESS_2
+Value=Johannesburg
+
 [Parameter18]
-Name=SCH_Title_Engineer
-Value=David George
+Name=COMPANY_ADDRESS_1
+Value=17 Baker Street, Rosebank
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
@@ -788,6 +880,126 @@ SCH_ExpandSheetNumber=0
 SCH_ExpandDocumentNumber=0
 SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
+
+[Generic_SignalIntegritySimulation]
+SignalIntegrityInitialised=-1
+TrackImpedance=50
+TrackLength=10000000
+UseManhattan=-1
+UseSupplyNetsRules=-1
+SupplyNetsCount=0
+UseStimulusRules=-1
+StimKind=1
+StimLevel=0
+StimStartTime=1E-8
+StimStopTime=6E-8
+StimPeriodTime=1E-7
+
+[Generic_SignalIntegrityPanelSetup]
+TerminationName0=No Termination
+TerminationEnabled0=True
+TerminationSweeps0=1
+TerminationName1=Serial Res
+TerminationEnabled1=False
+TerminationSweeps1=10
+TerminationName2=Parallel Res to VCC
+TerminationEnabled2=False
+TerminationSweeps2=10
+TerminationName3=Parallel Res to GND
+TerminationEnabled3=False
+TerminationSweeps3=10
+TerminationName4=Parallel Res to VCC & GND
+TerminationEnabled4=False
+TerminationSweeps4=10
+TerminationName5=Parallel Cap to GND
+TerminationEnabled5=False
+TerminationSweeps5=10
+TerminationName6=Res and Cap to GND
+TerminationEnabled6=False
+TerminationSweeps6=10
+TerminationName7=Parallel Schottky Diodes
+TerminationEnabled7=False
+TerminationSweeps7=10
+TerminationMinR10=0
+TerminationMaxR10=0
+TerminationPrefR10=0
+TerminationMinR20=0
+TerminationMaxR20=0
+TerminationPrefR20=0
+TerminationMinC0=0
+TerminationMaxC0=0
+TerminationPrefC0=0
+TerminationVCC0=0
+TerminationMinR11=25
+TerminationMaxR11=150
+TerminationPrefR11=47
+TerminationMinR21=0
+TerminationMaxR21=0
+TerminationPrefR21=0
+TerminationMinC1=0
+TerminationMaxC1=0
+TerminationPrefC1=0
+TerminationVCC1=0
+TerminationMinR12=50
+TerminationMaxR12=200
+TerminationPrefR12=100
+TerminationMinR22=0
+TerminationMaxR22=0
+TerminationPrefR22=0
+TerminationMinC2=0
+TerminationMaxC2=0
+TerminationPrefC2=0
+TerminationVCC2=5
+TerminationMinR13=0
+TerminationMaxR13=0
+TerminationPrefR13=0
+TerminationMinR23=50
+TerminationMaxR23=200
+TerminationPrefR23=100
+TerminationMinC3=0
+TerminationMaxC3=0
+TerminationPrefC3=0
+TerminationVCC3=0
+TerminationMinR14=50
+TerminationMaxR14=200
+TerminationPrefR14=100
+TerminationMinR24=50
+TerminationMaxR24=200
+TerminationPrefR24=100
+TerminationMinC4=0
+TerminationMaxC4=0
+TerminationPrefC4=0
+TerminationVCC4=5
+TerminationMinR15=0
+TerminationMaxR15=0
+TerminationPrefR15=0
+TerminationMinR25=0
+TerminationMaxR25=0
+TerminationPrefR25=0
+TerminationMinC5=2.35E-11
+TerminationMaxC5=9.4E-11
+TerminationPrefC5=4.7E-11
+TerminationVCC5=0
+TerminationMinR16=0
+TerminationMaxR16=0
+TerminationPrefR16=0
+TerminationMinR26=34
+TerminationMaxR26=136
+TerminationPrefR26=68
+TerminationMinC6=5E-11
+TerminationMaxC6=2E-10
+TerminationPrefC6=1E-10
+TerminationVCC6=0
+TerminationMinR17=0
+TerminationMaxR17=0
+TerminationPrefR17=0
+TerminationMinR27=0
+TerminationMaxR27=0
+TerminationPrefR27=0
+TerminationMinC7=0
+TerminationMaxC7=0
+TerminationPrefC7=0
+TerminationVCC7=5
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1046,56 +1258,58 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=HP LaserJet P2015 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
-OutputType1=CompositeDrill
-OutputName1=Composite Drill Drawing
+OutputType1=ODB
+OutputName1=ODB++ Files
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType2=Drill
-OutputName2=Drill Drawing/Guides
+OutputType2=NC Drill
+OutputName2=NC Drill Files
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType3=Final
-OutputName3=Final Artwork Prints
+OutputType3=Test Points
+OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType4=Gerber
-OutputName4=Gerber Files
+OutputType4=Plane
+OutputName4=Power-Plane Prints
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType5=Mask
 OutputName5=Solder/Paste Mask Prints
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType6=NC Drill
-OutputName6=NC Drill Files
+OutputType6=Drill
+OutputName6=Drill Drawing/Guides
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-OutputType7=ODB
-OutputName7=ODB++ Files
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType7=CompositeDrill
+OutputName7=Composite Drill Drawing
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-OutputType8=Plane
-OutputName8=Power-Plane Prints
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType8=Final
+OutputName8=Final Artwork Prints
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType9=Test Points
-OutputName9=Test Point Report
+OutputType9=Gerber
+OutputName9=Gerber Files
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+Configuration9_Name1=OutputConfigurationParameter1
+Configuration9_Item1=AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973834~1,16777217~1,16842755~1,16777220~1,16842753~1,16777221~1,16842756~1,16842757~1,16777222~1,16777223~1,16842758~1,16842759~1,16777224~1,16842760~1,16777225~1,16842761~1,16842751~1,16973831~1|PlotDrillDrawingLayerPair0_HighLayer=Top Layer|PlotDrillDrawingLayerPair0_LowLayer=Bottom Layer|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False
 
 [OutputGroup6]
 Name=Report Outputs
