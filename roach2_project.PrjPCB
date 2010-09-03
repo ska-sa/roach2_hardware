@@ -671,111 +671,150 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
+[Document44]
+DocumentPath=roach2.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+
 [GeneratedDocument1]
-DocumentPath=outputs\roach2.EXTREP
+DocumentPath=outputs\Fabrication Testpoint Report for roach2.ipc
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=outputs\roach2.G1
+DocumentPath=outputs\roach2-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=outputs\roach2.G2
+DocumentPath=outputs\roach2-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=outputs\roach2.G3
+DocumentPath=outputs\roach2.DRL
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=outputs\roach2.G4
+DocumentPath=outputs\roach2.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=outputs\roach2.G5
+DocumentPath=outputs\roach2.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=outputs\roach2.G6
+DocumentPath=outputs\roach2.G1
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=outputs\roach2.GBL
+DocumentPath=outputs\roach2.G2
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=outputs\roach2.GBO
+DocumentPath=outputs\roach2.G3
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=outputs\roach2.GBP
+DocumentPath=outputs\roach2.G4
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=outputs\roach2.GBS
+DocumentPath=outputs\roach2.G5
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=outputs\roach2.GD1
+DocumentPath=outputs\roach2.G6
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=outputs\roach2.GKO
+DocumentPath=outputs\roach2.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=outputs\roach2.GP1
+DocumentPath=outputs\roach2.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=outputs\roach2.GP2
+DocumentPath=outputs\roach2.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=outputs\roach2.GP3
+DocumentPath=outputs\roach2.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=outputs\roach2.GP4
+DocumentPath=outputs\roach2.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=outputs\roach2.GP5
+DocumentPath=outputs\roach2.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=outputs\roach2.GP6
+DocumentPath=outputs\roach2.GP1
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=outputs\roach2.GP7
+DocumentPath=outputs\roach2.GP2
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=outputs\roach2.GP8
+DocumentPath=outputs\roach2.GP3
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=outputs\roach2.GTL
+DocumentPath=outputs\roach2.GP4
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=outputs\roach2.GTO
+DocumentPath=outputs\roach2.GP5
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=outputs\roach2.GTP
+DocumentPath=outputs\roach2.GP6
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=outputs\roach2.GTS
+DocumentPath=outputs\roach2.GP7
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=outputs\roach2.REP
+DocumentPath=outputs\roach2.GP8
 DItemRevisionGUID=
 
 [GeneratedDocument27]
+DocumentPath=outputs\roach2.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=outputs\roach2.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=outputs\roach2.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=outputs\roach2.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=outputs\roach2.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=outputs\roach2.REP
+DItemRevisionGUID=
+
+[GeneratedDocument33]
 DocumentPath=outputs\roach2.RUL
 DItemRevisionGUID=
 
@@ -1259,53 +1298,55 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=HP LaserJet P2015 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
-OutputType1=Drill
-OutputName1=Drill Drawing/Guides
+OutputType1=ODB
+OutputName1=ODB++ Files
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType2=Mask
-OutputName2=Solder/Paste Mask Prints
+OutputType2=NC Drill
+OutputName2=NC Drill Files
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType3=Final
-OutputName3=Final Artwork Prints
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
+OutputType3=Test Points
+OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType4=CompositeDrill
-OutputName4=Composite Drill Drawing
+Configuration3_Name1=OutputConfigurationParameter1
+Configuration3_Item1=AdjacencyDistance=250000|GenerateCSVFormat=False|GenerateIPCFormat=True|GenerateSpreadSheetFormat=True|GenerateTextFormat=False|OutlineLayer=56|OutputAdjancencies=False|OutputBoardOutline=True|OutputTraces=False|Record=TestPointView|ReportBottomLayerTestpoints=True|ReportTopLayerTestpoints=True|Units=Imperial
+OutputType4=Plane
+OutputName4=Power-Plane Prints
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType5=NC Drill
-OutputName5=NC Drill Files
+OutputType5=Mask
+OutputName5=Solder/Paste Mask Prints
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-OutputType6=ODB
-OutputName6=ODB++ Files
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType6=Drill
+OutputName6=Drill Drawing/Guides
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-OutputType7=Plane
-OutputName7=Power-Plane Prints
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType7=CompositeDrill
+OutputName7=Composite Drill Drawing
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType8=Test Points
-OutputName8=Test Point Report
+OutputType8=Final
+OutputName8=Final Artwork Prints
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-Configuration8_Name1=OutputConfigurationParameter1
-Configuration8_Item1=AdjacencyDistance=250000|GenerateCSVFormat=False|GenerateIPCFormat=False|GenerateSpreadSheetFormat=True|GenerateTextFormat=False|OutlineLayer=56|OutputAdjancencies=False|OutputBoardOutline=False|OutputTraces=False|Record=TestPointView|ReportBottomLayerTestpoints=True|ReportTopLayerTestpoints=True|Units=Imperial
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType9=Gerber
 OutputName9=Gerber Files
 OutputDocumentPath9=
