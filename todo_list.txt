@@ -1,0 +1,102 @@
+* Power Supply sense pins
+
+* 3 free GPIO: perhaps use for DMA/v6_net control 
+??? * Trace clearance on inner layers close to fax mounting hole
+* More silkscreen labels
+* Fix silkscreen on bottom layer
+* Test VRP/VRN with a compile
+* Test MGT signals with a compile
+* Consider UART for FPGA?
+* self power requirements for FTDI?
+* Consider USB filters/shielding/grounding as per alan's correspondence
+* Check FTDI UART assignments
+
+* U70 thermal pad
+* Numbering P16, should show pin designator not name
+
+(DONE) All Non-plated holes pad size
+(DONE) AUX power header way wrong
+(DONE) C182 tracks
+(DONE) Length match qdr k,kn s
+(DONE) Add SelectMap data busy to CPLD for READBACK
+(DONE) Fix alignment of IO on v6 sheets
+(DONE) Add TP to SelectMap Din
+(DONE) Temp sense, recommended 2200pF cap on pair
+(DONE) NC7S08 should be Fairchild/ON
+
+(NOT DONE) Ground connection on TPS55100 not as recommended
+(NOT DONE) Thermal PAD on TPS55100 should be bigger
+(NOT DONE) Thermal PAD on TPS55100 should have more 0.33mm vias
+(NOT DONE) Match the ddr2 data groups better
+(NOT DONE) Check parasitic powering on 3v3aux via IIC pull-ups or FTDI
+(NOT DONE) Should we put 5pf cap on clk pair?
+(NOT DONE) ddr2 vtt coupling on top layer
+(NOT DONE) vref recommended width 20mil, 10 used
+(CHECKED OK) U71 pad width
+
+REV
+
+(DONE) Resolved most DRCs
+(DONE) Changed LTC2951 TSOT-23/TS8 footprint to avoid soldermask whiskers
+(DONE) Changed ADCMP604 footprint to avoid soldermask whiskers
+(DONE) Massaged nets around various non-plated mounting holes to get 8mil clearance
+(DONE) Changed clearance rule on no-plated through-hole pads to 8mil
+(DONE) updated ATX and Trace connector non-plated hole pad size
+(DONE) Halo RJ45 non-plated holes corrected
+(DONE) Moved via in fiducial on U44
+(DONE) Moved via in fiducial on U1
+(DONE) FTDI part number should be FT4232HQ
+
+REV
+
+(DONE) Fix 1v0 power supply connection on v6_power schematic
+(DONE) Soldermask expansion on pads to 2mil
+(DONE) add covered via to ddr2 bgas
+(DONE) change ddr2 pads to 0.45 mm, need to adjust vias too
+(DONE) QDR BGA offset
+(DONE) Fiducial 'hole' size
+(DONE) Take a closer look at the length matching on the ddr2
+(DONE) Check vishay 594D337X0016R2T Package
+(DONE) Label toplevel schematic
+(DONE) ddr3 holes plated?
+(DONE) Fix ddr3 dimm part number on schematic
+(DONE) Add NC symbols
+(DONE) Add nopop to HSWAPEN pull down
+(DONE) Pulldown on NVMCSGRAB (so no cpld image doesn't zap bus)
+(NOT DONE) consider terminating CCLK
+(DONE) IC-LOG-13 footprint: pads should be 0.5mm wide and 2.5 apart
+(DONE) fixed 3v3 split on layer 6 at zdok connector which was crossed
+(DONE) 3.3V split/keepout misalignment, 2 affected pullups moved
+(DONE) MMC signals crossing plane
+(DONE) FTDI pads should be 0.3x0.8
+(DONE) R123 should be 180 ohms to bias switch level to threshold 
+(DONE) ADCMP605 pins 10/12 swapped.
+(DONE) Placement of 10k on FTDI data is wrong, should be other side 
+(DONE) Ground pour under misc mgt clock, sysclock, usb_clk, ppc_clk, ppcnet_clk & v6net clk + some related nets minipulated
+(DONE) Corrected thermal relief behaviour on pours - pads now have thermal relief and vias not
+(DONE) SY89832U pads should be 0.28*0.80mm, 1.6 gnd pad
+(DONE) should be 4*vias under SY89832U 
+
+REV
+
+(DONE) Add Stitching VIAs
+(DONE) Change SD Card receptaclemmc 
+(DONE) MGT expansion mouting holes + footprint stuffup
+(DONE) Move FTDI EEPROM away from board edge
+(DONE) Find replacement CAP for C3 (not derated enough), consider different output caps)
+(DONE) IC-REG-7 Obsolete, use nat semi LP2985AIM53.8NOPB
+(DONE) FIX push button footprint+PN
+(DONE) Finalize PERCLK termination
+(DONE) Finalize DRAM series termination
+(DONE) fix SMA out opamp circuit
+(DONE) Change board POR to HW, scrap SW POR (PORFORCE)
+(DONE) Fiducials
+(DONE) Fix FAULT led level
+(DONE) PowerPC DRAM control routing
+(DONE) Length Matching on ZDOKs
+(DONE) Length matching on PPC DRAM
+(DONE) test-points
+(DONE) Silkscreen
+
+
+
