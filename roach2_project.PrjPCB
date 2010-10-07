@@ -672,247 +672,139 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [GeneratedDocument1]
-DocumentPath=outputs\ddr3.V
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=outputs\Design Rule Check - roach2.html
 DItemRevisionGUID=
 
-[GeneratedDocument3]
+[GeneratedDocument2]
 DocumentPath=outputs\Fabrication Testpoint Report for roach2.ipc
 DItemRevisionGUID=
 
-[GeneratedDocument4]
-DocumentPath=outputs\gpio_led.V
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=outputs\hwmon.V
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=outputs\jtag_levelxlate.V
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=outputs\mgt_breakout.V
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=outputs\misc.V
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=outputs\power_supply.V
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=outputs\ppc_cpld.V
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=outputs\ppc_ddr2_0.V
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=outputs\ppc_ddr2_1.V
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=outputs\ppc_extbus.V
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=outputs\ppc_net.V
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=outputs\ppc_power.V
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=outputs\ppc_serial.V
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=outputs\ppc_sys.V
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=outputs\qdr0_1.V
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=outputs\qdr2_3.V
-DItemRevisionGUID=
-
-[GeneratedDocument20]
+[GeneratedDocument3]
 DocumentPath=outputs\roach2-RoundHoles.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument4]
 DocumentPath=outputs\roach2-SlotHoles.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument22]
+[GeneratedDocument5]
 DocumentPath=outputs\roach2.DRL
 DItemRevisionGUID=
 
-[GeneratedDocument23]
+[GeneratedDocument6]
 DocumentPath=outputs\roach2.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument24]
+[GeneratedDocument7]
 DocumentPath=outputs\roach2.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument25]
+[GeneratedDocument8]
 DocumentPath=outputs\roach2.G1
 DItemRevisionGUID=
 
-[GeneratedDocument26]
+[GeneratedDocument9]
 DocumentPath=outputs\roach2.G2
 DItemRevisionGUID=
 
-[GeneratedDocument27]
+[GeneratedDocument10]
 DocumentPath=outputs\roach2.G3
 DItemRevisionGUID=
 
-[GeneratedDocument28]
+[GeneratedDocument11]
 DocumentPath=outputs\roach2.G4
 DItemRevisionGUID=
 
-[GeneratedDocument29]
+[GeneratedDocument12]
 DocumentPath=outputs\roach2.G5
 DItemRevisionGUID=
 
-[GeneratedDocument30]
+[GeneratedDocument13]
 DocumentPath=outputs\roach2.G6
 DItemRevisionGUID=
 
-[GeneratedDocument31]
+[GeneratedDocument14]
 DocumentPath=outputs\roach2.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument32]
+[GeneratedDocument15]
 DocumentPath=outputs\roach2.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument33]
+[GeneratedDocument16]
 DocumentPath=outputs\roach2.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument34]
+[GeneratedDocument17]
 DocumentPath=outputs\roach2.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument35]
+[GeneratedDocument18]
 DocumentPath=outputs\roach2.GD1
 DItemRevisionGUID=
 
-[GeneratedDocument36]
+[GeneratedDocument19]
 DocumentPath=outputs\roach2.GKO
 DItemRevisionGUID=
 
-[GeneratedDocument37]
+[GeneratedDocument20]
 DocumentPath=outputs\roach2.GP1
 DItemRevisionGUID=
 
-[GeneratedDocument38]
+[GeneratedDocument21]
 DocumentPath=outputs\roach2.GP2
 DItemRevisionGUID=
 
-[GeneratedDocument39]
+[GeneratedDocument22]
 DocumentPath=outputs\roach2.GP3
 DItemRevisionGUID=
 
-[GeneratedDocument40]
+[GeneratedDocument23]
 DocumentPath=outputs\roach2.GP4
 DItemRevisionGUID=
 
-[GeneratedDocument41]
+[GeneratedDocument24]
 DocumentPath=outputs\roach2.GP5
 DItemRevisionGUID=
 
-[GeneratedDocument42]
+[GeneratedDocument25]
 DocumentPath=outputs\roach2.GP6
 DItemRevisionGUID=
 
-[GeneratedDocument43]
+[GeneratedDocument26]
 DocumentPath=outputs\roach2.GP7
 DItemRevisionGUID=
 
-[GeneratedDocument44]
+[GeneratedDocument27]
 DocumentPath=outputs\roach2.GP8
 DItemRevisionGUID=
 
-[GeneratedDocument45]
+[GeneratedDocument28]
 DocumentPath=outputs\roach2.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument46]
+[GeneratedDocument29]
 DocumentPath=outputs\roach2.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument47]
+[GeneratedDocument30]
 DocumentPath=outputs\roach2.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument48]
+[GeneratedDocument31]
 DocumentPath=outputs\roach2.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument49]
+[GeneratedDocument32]
 DocumentPath=outputs\roach2.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument50]
+[GeneratedDocument33]
 DocumentPath=outputs\roach2.REP
 DItemRevisionGUID=
 
-[GeneratedDocument51]
+[GeneratedDocument34]
 DocumentPath=outputs\roach2.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument52]
-DocumentPath=outputs\roach2_top.V
-DItemRevisionGUID=
-
-[GeneratedDocument53]
-DocumentPath=outputs\v6_config_io_16_17_21_22.V
-DItemRevisionGUID=
-
-[GeneratedDocument54]
-DocumentPath=outputs\v6_io_12_13_14_15.V
-DItemRevisionGUID=
-
-[GeneratedDocument55]
-DocumentPath=outputs\v6_io_23_24_25_26.V
-DItemRevisionGUID=
-
-[GeneratedDocument56]
-DocumentPath=outputs\v6_io_27_28_32_33.V
-DItemRevisionGUID=
-
-[GeneratedDocument57]
-DocumentPath=outputs\v6_io_34_35_36_37_38.V
-DItemRevisionGUID=
-
-[GeneratedDocument58]
-DocumentPath=outputs\v6_mgt.V
-DItemRevisionGUID=
-
-[GeneratedDocument59]
-DocumentPath=outputs\v6_net.V
-DItemRevisionGUID=
-
-[GeneratedDocument60]
-DocumentPath=outputs\v6_power.V
-DItemRevisionGUID=
-
-[GeneratedDocument61]
-DocumentPath=outputs\zdoks.V
 DItemRevisionGUID=
 
 [Parameter1]
