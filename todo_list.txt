@@ -1,18 +1,38 @@
-* Power Supply sense pins
+REV
 
-* 3 free GPIO: perhaps use for DMA/v6_net control 
-??? * Trace clearance on inner layers close to fax mounting hole
-* More silkscreen labels
-* Fix silkscreen on bottom layer
-* Test VRP/VRN with a compile
-* Test MGT signals with a compile
-* Consider UART for FPGA?
-* self power requirements for FTDI?
-* Consider USB filters/shielding/grounding as per alan's correspondence
-* Check FTDI UART assignments
+(DONE) Fix silkscreen on bottom layer
+(DONE) Move rear mezz mounting holes forward
+(DONE) More silkscreen labels
+(NOT DONE) free GPIO: perhaps use for DMA/v6_net control/gpio [consider using in future revision for reduced risk]
+(DONE) mgt pair intra matching
+(NOT DONE) MGT diff pair spacing [significant effort for marginal benefit]
+(DONE) Changed date to October 2010
+(DONE) Change battery holder to socketed (digikey: 2998K-ND ), add battery as non-BOM item
+(DONE) removed TODOs
+(DONE) Check ddr2 term islands
+(NOT DONE) differential vias on mgts entry points [there are many clean via nearby to provide low inductance return paths, so benefit of diff via would be very small]
 
-* U70 thermal pad
-* Numbering P16, should show pin designator not name
+REV
+
+(DONE) 1V0 Power Supply sense pins
+(DONE) U70 thermal pad
+(DONE) Numbering P16, should show pin designator not name
+(DONE) self power requirements for FTDI?
+(DONE) Check FTDI UART assignments
+(NOT DONE) Consider USB filters/shielding/grounding as per alan's correspondence [grounded front panel IO acceptable]
+(NOT DONE) Consider UART for FPGA? [would require level conversion + header]
+(DONE) Remove floating 0-ohm resistors on HWMON
+(DONE) D1 pin 1 floater
+(DONE) Thicken QDR vref traces. (henry)
+(DONE) QDR termination resistors island connections. (henry)
+
+REV
+
+(DONE) Trace clearance on inner layers close to fax mounting hole
+(DONE) Remove QDR BWs replace with 0 ohm pullups
+(DONE) Resolve VRP/VRN issue
+
+REV
 
 (DONE) All Non-plated holes pad size
 (DONE) AUX power header way wrong
