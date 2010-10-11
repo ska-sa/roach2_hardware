@@ -808,76 +808,76 @@ DocumentPath=outputs\roach2.RUL
 DItemRevisionGUID=
 
 [Parameter1]
-Name=COMPANY_ADDRESS_1
-Value=17 Baker Street, Rosebank
+Name=SCH_Title_Engineer
+Value=David George
 
 [Parameter2]
-Name=COMPANY_ADDRESS_2
-Value=Johannesburg
-
-[Parameter3]
-Name=COMPANY_ADDRESS_3
-Value=South Africa
-
-[Parameter4]
-Name=COMPANY_NAME1
-Value=Square Kilometer Array
-
-[Parameter5]
-Name=COMPANY_NAME2
-Value=MeerKAT
-
-[Parameter6]
-Name=COPYRIGHT_YEAR
-Value=2010
-
-[Parameter7]
-Name=GERBER FILENAME
-Value=1111-2222
-
-[Parameter8]
-Name=PCB_REVISION
-Value=<1.00>
-
-[Parameter9]
-Name=PCB_Title_Date
-Value=14-08-2010
-
-[Parameter10]
-Name=PCB_Title_DocumentNumber
-Value=1111-2222P
-
-[Parameter11]
-Name=PCB_Title_DrawnBy
-Value=A. A.
-
-[Parameter12]
-Name=PCB_Title_Engineer
-Value=B. B.
-
-[Parameter13]
-Name=PCB_Title_Filename
-Value=roach2.PcbDoc
-
-[Parameter14]
-Name=PROJECT_TITLE
-Value=ROACH 2
-
-[Parameter15]
-Name=SCH_Title_Date
-Value=14-08-2010
-
-[Parameter16]
-Name=SCH_Title_DocumentNumber
-Value=
-
-[Parameter17]
 Name=SCH_Title_DrawnBy
 Value=David George
 
+[Parameter3]
+Name=SCH_Title_DocumentNumber
+Value=
+
+[Parameter4]
+Name=SCH_Title_Date
+Value=14-08-2010
+
+[Parameter5]
+Name=PROJECT_TITLE
+Value=ROACH 2
+
+[Parameter6]
+Name=PCB_Title_Filename
+Value=roach2.PcbDoc
+
+[Parameter7]
+Name=PCB_Title_Engineer
+Value=B. B.
+
+[Parameter8]
+Name=PCB_Title_DrawnBy
+Value=A. A.
+
+[Parameter9]
+Name=PCB_Title_DocumentNumber
+Value=1111-2222P
+
+[Parameter10]
+Name=PCB_Title_Date
+Value=14-08-2010
+
+[Parameter11]
+Name=PCB_REVISION
+Value=<1.00>
+
+[Parameter12]
+Name=GERBER FILENAME
+Value=1111-2222
+
+[Parameter13]
+Name=COPYRIGHT_YEAR
+Value=2010
+
+[Parameter14]
+Name=COMPANY_NAME2
+Value=MeerKAT
+
+[Parameter15]
+Name=COMPANY_NAME1
+Value=Square Kilometer Array
+
+[Parameter16]
+Name=COMPANY_ADDRESS_3
+Value=South Africa
+
+[Parameter17]
+Name=COMPANY_ADDRESS_2
+Value=Johannesburg
+
 [Parameter18]
-Name=SCH_Title_Engineer
-Value=David George
+Name=COMPANY_ADDRESS_1
+Value=17 Baker Street, Rosebank
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
@@ -1597,7 +1597,7 @@ Type14=1
 Type15=1
 Type16=1
 Type17=1
-Type18=1
+Type18=0
 Type19=0
 Type20=1
 Type21=1
