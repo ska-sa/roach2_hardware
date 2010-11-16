@@ -1,3 +1,23 @@
+* There are many silkscreen slivers between vias and decoupling caps, DDI covered these for REV 0, need to fix for REV 1
+* the CPLD has two connection on SYS_WPn in error
+* There are several passives which can be replaced with other values they are listed below:
+- RES-TF-22 = 330R (used as current limiting resistor and cclk termination resistor), replace with 249
+- RES-TF-18 = 20K (used in voltage divider for 12V hwmon), use any other voltage divider
+- RES-TF-11 = 22R (used as current limiting res on VJTAG), use 49R9
+- RES-TF-25 = 120R (used for DDR2 clk termination), use 100R
+- RES-TF-9  = 180R (used as current limiting for LEDs), use 200R
+- RES-TF-6  = 30K (used in push button controller RC), use 17K4
+- RES-TF-17 = 83k4 (hysterysis for sma ins), use 63k4
+- CAP-CER-5 = 1uF (used to configure push button controller timeout), (MAKE A PLAN!) 
+- CAP-CER-8 = 10uF (bulk decoupling in several places), use 22uF
+* Most silkscreen logos need to be fixed so they print properly
+* Silkscreen/via cleanup where possible
+* RESET ss should be HARD RST to match SOFT RST, or SRESET/HRESET depending on what fits
+
+
+
+REV 0 Release
+
 REV
 
 (DONE) Fix silkscreen on bottom layer
