@@ -1,0 +1,3 @@
+Parts to be left unpopulated on ROACH 2
+
+R246, R263, R270, R273, R271, R413, R284, R426, C724, R463, R290, R291, R293, R294, R295, R296, R297, C37, C38
