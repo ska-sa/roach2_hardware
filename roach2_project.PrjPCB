@@ -671,213 +671,77 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[GeneratedDocument1]
-DocumentPath=outputs\Design Rule Check - roach2.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=outputs\Fabrication Testpoint Report for roach2.ipc
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=outputs\roach2-RoundHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=outputs\roach2-SlotHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=outputs\roach2.DRL
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=outputs\roach2.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=outputs\roach2.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=outputs\roach2.G1
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=outputs\roach2.G2
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=outputs\roach2.G3
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=outputs\roach2.G4
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=outputs\roach2.G5
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=outputs\roach2.G6
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=outputs\roach2.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=outputs\roach2.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=outputs\roach2.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=outputs\roach2.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=outputs\roach2.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=outputs\roach2.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=outputs\roach2.GP1
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=outputs\roach2.GP2
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=outputs\roach2.GP3
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=outputs\roach2.GP4
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=outputs\roach2.GP5
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=outputs\roach2.GP6
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=outputs\roach2.GP7
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=outputs\roach2.GP8
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=outputs\roach2.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=outputs\roach2.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=outputs\roach2.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=outputs\roach2.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=outputs\roach2.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=outputs\roach2.REP
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=outputs\roach2.RUL
-DItemRevisionGUID=
-
 [Parameter1]
-Name=SCH_Title_Engineer
-Value=David George
+Name=COMPANY_ADDRESS_1
+Value=17 Baker Street, Rosebank
 
 [Parameter2]
-Name=SCH_Title_DrawnBy
-Value=David George
-
-[Parameter3]
-Name=SCH_Title_DocumentNumber
-Value=
-
-[Parameter4]
-Name=SCH_Title_Date
-Value=14-08-2010
-
-[Parameter5]
-Name=PROJECT_TITLE
-Value=ROACH 2
-
-[Parameter6]
-Name=PCB_Title_Filename
-Value=roach2.PcbDoc
-
-[Parameter7]
-Name=PCB_Title_Engineer
-Value=B. B.
-
-[Parameter8]
-Name=PCB_Title_DrawnBy
-Value=A. A.
-
-[Parameter9]
-Name=PCB_Title_DocumentNumber
-Value=1111-2222P
-
-[Parameter10]
-Name=PCB_Title_Date
-Value=14-08-2010
-
-[Parameter11]
-Name=PCB_REVISION
-Value=<1.00>
-
-[Parameter12]
-Name=GERBER FILENAME
-Value=1111-2222
-
-[Parameter13]
-Name=COPYRIGHT_YEAR
-Value=2010
-
-[Parameter14]
-Name=COMPANY_NAME2
-Value=MeerKAT
-
-[Parameter15]
-Name=COMPANY_NAME1
-Value=Square Kilometer Array
-
-[Parameter16]
-Name=COMPANY_ADDRESS_3
-Value=South Africa
-
-[Parameter17]
 Name=COMPANY_ADDRESS_2
 Value=Johannesburg
 
+[Parameter3]
+Name=COMPANY_ADDRESS_3
+Value=South Africa
+
+[Parameter4]
+Name=COMPANY_NAME1
+Value=Square Kilometer Array
+
+[Parameter5]
+Name=COMPANY_NAME2
+Value=MeerKAT
+
+[Parameter6]
+Name=COPYRIGHT_YEAR
+Value=2010
+
+[Parameter7]
+Name=GERBER FILENAME
+Value=1111-2222
+
+[Parameter8]
+Name=PCB_REVISION
+Value=<1.00>
+
+[Parameter9]
+Name=PCB_Title_Date
+Value=14-08-2010
+
+[Parameter10]
+Name=PCB_Title_DocumentNumber
+Value=1111-2222P
+
+[Parameter11]
+Name=PCB_Title_DrawnBy
+Value=A. A.
+
+[Parameter12]
+Name=PCB_Title_Engineer
+Value=B. B.
+
+[Parameter13]
+Name=PCB_Title_Filename
+Value=roach2.PcbDoc
+
+[Parameter14]
+Name=PROJECT_TITLE
+Value=ROACH 2
+
+[Parameter15]
+Name=SCH_Title_Date
+Value=14-08-2010
+
+[Parameter16]
+Name=SCH_Title_DocumentNumber
+Value=
+
+[Parameter17]
+Name=SCH_Title_DrawnBy
+Value=David George
+
 [Parameter18]
-Name=COMPANY_ADDRESS_1
-Value=17 Baker Street, Rosebank
+Name=SCH_Title_Engineer
+Value=David George
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
@@ -1033,7 +897,6 @@ TerminationVCC7=5
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=HP LaserJet P2015 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=SciCardsNetlist
 OutputName1=SciCards Netlist
@@ -1166,7 +1029,6 @@ OutputDefault25=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP LaserJet P2015 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -1187,7 +1049,6 @@ OutputDefault3=0
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=HP LaserJet P2015 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Composite
 OutputName1=Composite Drawing
@@ -1249,7 +1110,6 @@ PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HP LaserJet P2015 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -1285,7 +1145,6 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP LaserJet P2015 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Drill
 OutputName1=Drill Drawing/Guides
@@ -1347,7 +1206,6 @@ Configuration9_Item1=AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TL
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HP LaserJet P2015 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -1408,7 +1266,6 @@ OutputDefault8=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=HP LaserJet P2015 Series PS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
