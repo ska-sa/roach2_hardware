@@ -1,0 +1,11 @@
+DRC Rules Export File for PCB: C:\work\svnROACH2\elec\roach2\roach2.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_smt|Scope=Board|Minimum=2.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_bga|Scope=Board|Minimum=3.00
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=4.05
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance_std|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.80
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_std|Scope=Board|Minimum=0.00
+RuleKind=Clearance|RuleName=Clearance_pours|Scope=Board|Minimum=5.00
+RuleKind=Clearance|RuleName=Clearance_splits|Scope=Board|Minimum=8.00
+RuleKind=Clearance|RuleName=Clearance_npth|Scope=Board|Minimum=8.00
