@@ -1,0 +1,45 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: roach2.PcbDoc   2011/05/16  10:39:21 AM
+---------------------------------------------------------------------------
+
+Layer Pair : L1_TOP to L16_BOT
+ASCII RoundHoles File : roach2-RoundHoles.TXT
+ASCII SlotHoles File : roach2-SlotHoles.TXT
+EIA File   : roach2.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.254mm (10mil)          Round          6295             13165.30 mm (518.32 Inch)
+T2        0.255mm (10.039mil)      Round          125              1340.12 mm (52.76 Inch)
+T3        0.33mm (12.992mil)       Round          59               936.17 mm (36.86 Inch)
+T4        0.5mm (19.685mil)        Round          40               1057.82 mm (41.65 Inch)
+T5        0.6mm (23.622mil)        Round          288              764.09 mm (30.08 Inch)
+T6        0.7mm (27.559mil)        Round          240              593.74 mm (23.38 Inch)
+T7        0.7112mm (28mil)         Round          1                0.00 mm (0.00 Inch)
+T8        0.8mm (31.496mil)        Round          4                4.20 mm (0.17 Inch)
+T9        0.8mm (31.496mil)        Slot           1                7551.29 mm (297.29 Inch)
+T10       0.82mm (32.283mil)       Round          5                10.16 mm (0.40 Inch)
+T11       0.9mm (35.433mil)        Round          26               330.76 mm (13.02 Inch)
+T12       0.92mm (36.221mil)       Round          4                6.50 mm (0.26 Inch)
+T13       1mm (39.37mil)           Round          271              3196.93 mm (125.86 Inch)
+T14       1mm (39.37mil)           Slot           2                7550.76 mm (297.27 Inch)
+T15       1.02mm (40.157mil)       Round          8                36.32 mm (1.43 Inch)
+T16       1.1mm (43.307mil)        Round          16               395.44 mm (15.57 Inch)
+T17       1.2mm (47.244mil)        Round          58               484.63 mm (19.08 Inch)
+T18       1.45mm (57.087mil)       Round          24               138.30 mm (5.44 Inch)
+T19       1.5mm (59.055mil)        Round          3                27.52 mm (1.08 Inch)
+T20       1.6mm (62.992mil)        Round          4                38.61 mm (1.52 Inch)
+T21       1.7mm (66.929mil)        Round          12               68.16 mm (2.68 Inch)
+T22       1.7mm (66.929mil)        Slot           1                7265.71 mm (286.05 Inch)
+T23       2.3mm (90.551mil)        Round          2                12.04 mm (0.47 Inch)
+T24       2.45mm (96.457mil)       Round          2                138.04 mm (5.43 Inch)
+T25       3.81mm (150mil)          Round          17               1884.02 mm (74.17 Inch)
+T26       1.1684mm (46mil)         Round          4         NPTH   176.15 mm (6.93 Inch)
+T27       2.4mm (94.488mil)        Round          1         NPTH   0.00 mm (0.00 Inch)
+T28       3.125mm (123.031mil)     Round          1         NPTH   0.00 mm (0.00 Inch)
+T29       3.2mm (125.984mil)       Round          2         NPTH   54.52 mm (2.15 Inch)
+T30       3.25mm (127.953mil)      Round          4         NPTH   34.49 mm (1.36 Inch)
+---------------------------------------------------------------------------
+Totals                                            7520             47261.81 mm (1860.70 Inch)
+
+Total Processing Time (hh:mm:ss) : 00:00:05
