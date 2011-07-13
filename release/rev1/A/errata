@@ -1,0 +1,15 @@
+* PPC Address Line[5:7] require pullups with 3k3
+The PPC does not boot reliably without pullups on PERADDR5, 6 and 7.
+
+* Sync Output Buffer feedback resistor values too high
+Need to replace with close to 1k
+
+* Sync Output Buffer need note on schematic to indicate not for clocks
+The device gets way too hot with continous signals, need to say so on schematic
+
+* DDR3 SPD address (0x50) clashes with U16.
+Need to remove R378 and R379 to have U16 work as expected. SPD address should change to 0x57 in next rev. (Possibly via pullups)
+
+* Green Status LEDs not evenly spaced
+DS23,29,24 and 25 need to be nudged to align nicely
+
