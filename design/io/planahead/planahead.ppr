@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Project Version="3" Minor="4">
+	<DesignAhead ElabFile="elab.xml"/>
+	<MacroFamily Arch="virtex6" Part="xc6vsx475tff1759-1"/>
+	<NetlistH Dir="netlists/netlist_1" File="nlh.xml" State="current">
+		<FloorplanH Dir="floorplans/floorplan_1" File="pfi.xml" State="open"/>
+	</NetlistH>
+	<DefaultLaunch Dir="$PRUNDIR"/>
+	<DefaultPromote Dir="$PROMOTEDIR"/>
+</Project>
+

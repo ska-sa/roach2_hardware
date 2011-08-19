@@ -1,0 +1,85 @@
+Design goals:
+---------------
+
+Our strategy is to use use COTS I2C devices to reduce cost and simplify production/testing
+Must not interfere with regular board operation (other than button activity, ppc shutdown and optional fault shutdown)
+
+Requirements:
+-----------------
+
+* Power state and ATX Power button behaviour
+
+The board shall have two power states: OFF and ON. In the OFF power state all power management circuitry will run off the 
+ATX auxiliary power. A 100 ms press on the power button when in the OFF state must power the board on. A three second press
+of the power button when in the ON state must power the board off. A brief press of the power button should trigger an interrupt
+to the board's control processor in order for it to perform an orderly shutdown. The control processor should be able to set the
+power state from ON to OFF. Further it must be possible to change the state to OFF when a system health FAULT occurs. This feature
+must be optionally disable via a easily accessible jumper.
+
+* Reset Switch
+
+Pressing the reset switch must turn the power of the board off for the duration that the button is pressed. De-bouncing and
+pulse extension should be applied to this reset. The board power should return to the previous state after the button is released.
+
+* System health monitoring
+
+System health monitoring involving the monitoring of fanspeeds, power supplies and temperatures
+with the goal providing information as to the health of the board to the control processor on the board.
+
+Specifically, the following points must be monitored:
+All power supply outputs; either by sampling the output voltage or by inspecting logical power-good signals
+Fan speeds of the FPGA and chassis; possibly up to 2 others to cater for further fans such as ADCs
+Temperatures of the FPGA, CPU and ambient; possibly two ambient temperatures placed at air inlet and outlet points  
+
+* Power/Current Monitoring
+Power/Current monitoring is desirable to analyse the power utilization and, possibly, to help with fault detection.
+Current sensing will be included for all ATX power inputs to establish total power utilization 
+Current sensing will be placed on the FPGA core voltage, from which most power is expected to be drawn
+Current sensing may be placed on other major supplies to provide more information regarding power utilization
+
+* Fault Detection
+It should be possible to set threshold values with which all monitored values will be compared against. When a threshold
+is exceeded a fault signal shall be asserted. This should drive an led on both the board and the front panel. Further, this should
+be tied to a CPU interrupt to indicate to control software that a fault has occurred. As mentioned earlier, this signal should cause
+an immediate system shutdown, provided this option is enabled via a jumper.
+
+* Fault Logging
+It must be possible to access the specific cause of a FAULT from the CPU.
+
+* Access to Power management information in the OFF state
+It must be possible to access the FAULT and power management information when the board is in the OFF state without opening the chassis.
+This could be achieved using an USB to I2C interface via an FTDI device.
+
+-------------------------------------
+           Parts of interest:
+-------------------------------------
+
+
+Push button monitor: (1.75$)
+-----------------------------
+
+LTC2950-1/LTC2950-2
+
+* Configurable switch on/off time
+* Alert/IRQ on activity
+* External Shutdown force
+
+This seems perfect.
+
+Fan monitor: (2.75$)
+-----------------------------
+
+LTC1840
+
+Monitors/controls 2 x fans
+faults logging
+
+
+----------------------
+MAX16071
+
+monitors 14 supplies
+fault logging
+GPIOs
+
+

@@ -1,0 +1,8 @@
+sys_clk_p
+sys_clk_n
+aux_clk_p<0>
+aux_clk_p<1>
+aux_synci_p<0>
+aux_synci_n<0>
+aux_synco_p<0>
+aux_synco_n<0>

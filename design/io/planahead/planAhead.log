@@ -1,0 +1,34 @@
+INFO: [HD-Application 1] Opened log file /home/dave/work/roach2/v6io_alloc/planahead/planAhead.log
+INFO: [HD-Application 2] Opened journal file /home/dave/work/roach2/v6io_alloc/planahead/planAhead.jou
+#-----------------------------------------------------------
+# PlanAhead v11.3
+# Build 48858 by hdbuild on Fri Aug 21 18:43:38 PDT 2009
+# Start of session at: 12/8/09 9:29:46 AM
+# Process ID: 16427
+#-----------------------------------------------------------
+INFO: [HD-RTPRIM 0] Parsing template file '/usr/local/hdl/Xilinx/11.1/ISE/data/projnav/templates/verilog.xml'
+INFO: [HD-RTPRIM 1] Finished parsing template file '/usr/local/hdl/Xilinx/11.1/ISE/data/projnav/templates/verilog.xml'
+INFO: [HD-RTPRIM 0] Parsing template file '/usr/local/hdl/Xilinx/11.1/ISE/data/projnav/templates/vhdl.xml'
+INFO: [HD-RTPRIM 1] Finished parsing template file '/usr/local/hdl/Xilinx/11.1/ISE/data/projnav/templates/vhdl.xml'
+INFO: [HD-RTPRIM 0] Parsing template file '/usr/local/hdl/Xilinx/11.1/ISE/data/projnav/templates/ucf.xml'
+INFO: [HD-RTPRIM 1] Finished parsing template file '/usr/local/hdl/Xilinx/11.1/ISE/data/projnav/templates/ucf.xml'
+Command> hdi::project open -file /home/dave/work/roach2/v6io_alloc/planahead/planahead.ppr
+INFO: [HD-EDIFIN 0] Parsing Edif File '/home/dave/work/roach2/v6io_alloc/planahead/planahead.data/netlists/netlist_1/top.edn'
+INFO: [HD-EDIFIN 1] Finished Parsing Edif File '/home/dave/work/roach2/v6io_alloc/planahead/planahead.data/netlists/netlist_1/top.edn'
+INFO: [HD-ArchReader 15] Reading macro library /usr/local/hdl/Xilinx/11.1/PlanAhead/./parts/xilinx/virtex6/hd_int_macros.edn
+INFO: [HD-EDIFIN 0] Parsing Edif File '/usr/local/hdl/Xilinx/11.1/PlanAhead/./parts/xilinx/virtex6/hd_int_macros.edn'
+INFO: [HD-EDIFIN 1] Finished Parsing Edif File '/usr/local/hdl/Xilinx/11.1/PlanAhead/./parts/xilinx/virtex6/hd_int_macros.edn'
+INFO: [HD-ArchReader 9] Loading clock placement rules from /usr/local/hdl/Xilinx/11.1/PlanAhead/parts/xilinx/virtex6/ClockPlacerRules.xml
+INFO: [HD-ArchReader 7] Loading clock regions from /usr/local/hdl/Xilinx/11.1/PlanAhead/parts/xilinx/virtex6/virtex6sxt/xc6vsx475t/ClockRegion.xml
+INFO: [HD-ArchReader 8] Loading clock buffers from /usr/local/hdl/Xilinx/11.1/PlanAhead/parts/xilinx/virtex6/virtex6sxt/xc6vsx475t/ClockBuffers.xml
+INFO: [HD-ArchReader 3] Loading package from /usr/local/hdl/Xilinx/11.1/PlanAhead/parts/xilinx/virtex6/virtex6sxt/xc6vsx475t/ff1759/Package.xml
+INFO: [HD-ArchReader 4] Loading io standards from /usr/local/hdl/Xilinx/11.1/PlanAhead/./parts/xilinx/virtex6/IOStandards.xml
+INFO: [HD-GDRC 0] Loading list of drcs for the architecture : /usr/local/hdl/Xilinx/11.1/PlanAhead/./parts/xilinx/virtex6/drc.xml
+INFO: [HD-UCFReader 0] Parsing UCF File : /home/dave/work/roach2/v6io_alloc/planahead/planahead.data/floorplans/floorplan_1/roach2.ucf
+INFO: [HD-UCFReader 1] Finished Parsing UCF File : /home/dave/work/roach2/v6io_alloc/planahead/planahead.data/floorplans/floorplan_1/roach2.ucf
+INFO: [HD-UCFReader 0] Parsing UCF File : /home/dave/work/roach2/v6io_alloc/planahead/planahead.data/floorplans/floorplan_1/fp.ucf
+INFO: [HD-UCFReader 1] Finished Parsing UCF File : /home/dave/work/roach2/v6io_alloc/planahead/planahead.data/floorplans/floorplan_1/fp.ucf
+#-----------------------------------------------------------
+# End of session at: 12/8/09 1:42:21 PM
+# Process ID: 16427
+#-----------------------------------------------------------

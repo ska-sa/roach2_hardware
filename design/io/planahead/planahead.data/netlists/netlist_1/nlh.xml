@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<NetlistInfo Version="1" Minor="6">
+	<NetlistHandle Name="netlist_1" TargetPart="xc6vsx475tff1759-1" TopFile="top.edn" PortsFile="ports.xml">
+	</NetlistHandle>
+</NetlistInfo>
+
