@@ -9,7 +9,7 @@ The device gets way too hot with continous signals, need to say so on schematic
 
 * Sync output to support clocks
 
-* DDR3 SPD address (0x50) clashes with U16.
+* DDR3 SPD address (0x50 and 0x18) clashes with U16.
 Need to remove R378 and R379 to have U16 work as expected. SPD address should change to 0x57 in next rev. (Possibly via pullups)
 
 * Green Status LEDs not evenly spaced
@@ -26,4 +26,6 @@ DS23,29,24 and 25 need to be nudged to align nicely
 * U40 has via on pin1 marking
 
 * MAX16071 EN pin should be pulled to 3v3 not 5V
+
+* ATX POWER ok to FTDI chip
 
