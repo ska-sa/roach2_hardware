@@ -10,9 +10,9 @@ The device gets way too hot with continous signals, need to say so on schematic
 * Sync output to support clocks
 
 * DDR3 SPD address (0x50 and 0x18) clashes with U16.
-Need to remove R378 and R379 to have U16 work as expected. SPD address should change to 0x57 in next rev. (Possibly via pullups)
+Need to remove R378 and R379 to have U16 work as expected. SPD address should be '110' [ 0x56 and 0x1e ] in next rev. (Possibly via pullups)
 
-* Green Status LEDs not evenly spaced
+* Green Status LEDs not evenly spaced (also v6 leds)
 DS23,29,24 and 25 need to be nudged to align nicely
 
 * QDR ODT should selectable via a pullup to either high or low.
@@ -27,5 +27,8 @@ DS23,29,24 and 25 need to be nudged to align nicely
 
 * MAX16071 EN pin should be pulled to 3v3 not 5V
 
+* MAX16071 pinout is wrong (a la the datasheet) need to move pins 34:38 to 33:37 and leave 38 NC
+
 * ATX POWER ok to FTDI chip
 
+* PPC drives killn low, which could hopefully be masked with a switch
