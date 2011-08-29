@@ -7,7 +7,7 @@ Need to replace with close to 1k
 * Sync Output Buffer need note on schematic to indicate not for clocks
 The device gets way too hot with continous signals, need to say so on schematic
 
-* Sync output to support clocks
+(* Sync output to support clocks)
 
 * DDR3 SPD address (0x50 and 0x18) clashes with U16.
 Need to remove R378 and R379 to have U16 work as expected. SPD address should be '110' [ 0x56 and 0x1e ] in next rev. (Possibly via pullups)
@@ -18,17 +18,25 @@ DS23,29,24 and 25 need to be nudged to align nicely
 * QDR ODT should selectable via a pullup to either high or low.
 
 * CPLD PORn/POR_FORCEn can break JTAG chain
+Should remove POR_FORCEn and tie PORn with 3K3
 
 * Scrap warm start jumper/circuit
 
 * 1uF - 2.2uF on 1V5 inhibit to support renesas parts
 
 * U40 has via on pin1 marking
+cover the via
 
 * MAX16071 EN pin should be pulled to 3v3 not 5V
 
-* MAX16071 pinout is wrong (a la the datasheet) need to move pins 34:38 to 33:37 and leave 38 NC
+* MAX16071 pinout is wrong (a la the datasheet)
+need to move pins 34:38 to 33:37 and leave 38 NC
 
 * ATX POWER ok to FTDI chip
+this will make testing a little more convenient, suggest D2 (pin 53)
 
-* PPC drives killn low, which could hopefully be masked with a switch
+* PPC drives killn low when shutdown, which interferes the reset button.
+This could hopefully be masked with a switch before the push-button controller
+
+* current sense amplifaction too large in all cases but 3v3.
+Need to reduce gain by a factor of 4 (roughly) by selecting gain resistors accordingly
