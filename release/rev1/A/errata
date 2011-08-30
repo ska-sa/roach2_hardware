@@ -42,3 +42,5 @@ This could hopefully be masked with a switch before the push-button controller
 Need to reduce gain by a factor of 4 (roughly) by selecting gain resistors accordingly
 
 * PPC USB oscillator not reliable need to investigate
+
+* Backpowering on ALL FTDI signals to PPC, current switch workaround not working
