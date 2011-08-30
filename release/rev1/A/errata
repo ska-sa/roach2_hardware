@@ -40,3 +40,5 @@ This could hopefully be masked with a switch before the push-button controller
 
 * current sense amplifaction too large in all cases but 3v3.
 Need to reduce gain by a factor of 4 (roughly) by selecting gain resistors accordingly
+
+* PPC USB oscillator not reliable need to investigate
