@@ -1,0 +1,28 @@
+(edif netlist_1_EMPTY
+  (edifversion 2 0 0)
+  (edifLevel 0)
+  (keywordmap (keywordlevel 0))
+(status
+ (written
+  (timeStamp 2009 10 26 11 52 36)
+  (program "PlanAhead" (version "11.3"))
+  (comment "Built on 'Fri Aug 21 18:43:38 PDT 2009'")
+  (comment "Built by 'hdbuild'")
+ )
+)
+  (Library hdi_lib_etc
+    (edifLevel 0)
+    (technology (numberDefinition ))
+   (cell netlist_1_EMPTY (celltype GENERIC)
+     (view netlist (viewtype NETLIST)
+       (interface 
+       )
+     )
+   )
+  )
+(comment "Reference To The Cell Of Highest Level")
+
+  (design netlist_1_EMPTY
+    (cellref netlist_1_EMPTY (libraryref hdi_lib_etc))
+  )
+)

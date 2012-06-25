@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Floorplan Version="1" Minor="4">
+	<Ucf File="roach2.ucf" Type="USER"/>
+	<Ucf File="fp.ucf" Type="PA"/>
+	<ISELoc File="iseloc.xml"/>
+	<UserCols File="userCols.xml"/>
+</Floorplan>
+
