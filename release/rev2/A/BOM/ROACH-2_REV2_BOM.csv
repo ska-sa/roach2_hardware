@@ -18,6 +18,7 @@ RESN-XTAL-4,CTS,405C35D12M00000,"12 MHz, Surface mount, Crystal Oscillator",Y4,,
 RESN-CLK-5,CTS,636N5C025M00000,"25.00 MHz, 2V5, CTS 636 clock oscillator","Y6, Y7",,,,2
 RESN-CLK-1,CTS,CB3LV-3C-33M3333,"Surface mount, 33.3333 MHz, 3V3 Clock, oscillator","Y2, Y5",,,,2
 IC-MEM-1,Cypress,CY7C25652KV18-450BZXC,"72Mb, 36-Bit wide, QDR2+ Synchronous SRAM with ODT","U57, U58, U60, U61",,,,4
+Alternative part for the Cypress CY7C25652KV18-450BZXC is the Renesas R1QDA7236ABG-22IBO,,,,,,,,
 TRANS-NFET-0,Fairchild Semiconductor,BSS138,N-Channel Logic Level Enhancement Mode Field Effect Transistor,"Q3, Q4, Q5, Q10, Q11, Q12, Q13, Q14, Q15, Q16, Q17, Q18, Q19, Q20, Q21, Q22, Q23, Q24, Q25, Q26, Q27, Q28",0.22A,,,22
 IC-LOG-0,Fairchild Semiconductor,NC7S08M5X,TinyLogic® HS 2-Input AND Gate,U86,,,,1
 TRANS-NFET-1,Fairchild Semiconductor,NDS331N,N-Channel Logic Level Enhancement Mode Field Effect Transistor,"Q1, Q2, Q6, Q7, Q8, Q9",1.3A,,,6
